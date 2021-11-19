@@ -14,7 +14,7 @@
              '0df6479a600db395c12ad29ebda3120d00460338b9a6b15913e2245aa29212a3798c32e664ca70c8034146e2e0b573066deec9e3210198202f753994e1b83efa')
 
 +prepare() {
-+  patch --forward --strip=1 --input="${srcdir}/../jenkins.config.patch.patch"
++  patch --forward --strip=1 --input="${srcdir}/../../jenkins.config.patch.patch"
 +}
 +
  package() {
