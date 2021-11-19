@@ -1,0 +1,11 @@
+--- a/PKGBUILD
++++ b/PKGBUILD
+@@ -10,7 +10,7 @@
+ arch=('any')
+ url='https://jenkins.io'
+ license=('MIT')
+-depends=('java-runtime=8' 'ttf-dejavu')
++depends=('fontconfig' 'java-runtime=11' 'ttf-dejavu')
+ provides=('jenkins-ci')
+ conflicts=('jenkins-ci')
+ replaces=('jenkins-ci')
